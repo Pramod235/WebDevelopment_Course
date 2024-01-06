@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tektur', sans-serif;
+  }
+  
+  #header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    min-height: 75px;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+    background-color: white;
+  }
+  
+  #logo{
+    width: 50vw;
+  }
+  
+  nav ul{
+    display: flex;
+    width: 40vw;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #hero{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: centerl;
+  }
+  
+  h2{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #email{
+    padding: 5px;
+    width: 100%;
+    max-width: 275px;
+  }
+  
+  .btn{
+    max-width: 150px;
+    height: 30px;
+    padding: 0 10px;
+    margin: 20px 0;
+    background-color: rgb(38, 39, 40);
+    border: 0;
+    color: rgb(221, 226, 230);
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  .btn{
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+  
+  #how-it-works{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fa-battery-full{
+    font-size: 2rem;
+    color: black;
+  }
+  
+  #pricing{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #video{
+    width: 80%;
+    height: 250px;
+  }
+  
+  .product{
+    width: 30%;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product .btn:hover{
+    background-color:rgb(221, 226, 230);
+    color: rgb(38, 39, 40);
+  }
+  
+  .level{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(211, 217, 221);
+    padding: 15px 0;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  footer{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(211, 217, 221);
+  }
+  
+  footer ul{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer ul li{
+    padding: 0 30px;
+  }
+  
+  footer span{
+    display: flex;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    justify-content: flex-end;
+  }
+  
+  @media (max-width: 600px){
+    #pricing{
+      flex-direction: column;
+    }
+    .product{
+      width: 60%;
+    }
+  }
+  
